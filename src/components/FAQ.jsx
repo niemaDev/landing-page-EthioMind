@@ -1,6 +1,4 @@
-
 import React, { useState } from 'react';
-
 const faqs = [
   { q: "Is EthioMind free to use?", a: "Yes! EthioMind offers a free version for students with essential features." },
   { q: "Which universities are supported?", a: "Currently AAU, ASTU, HU, JU, and MU students can use EthioMind." },

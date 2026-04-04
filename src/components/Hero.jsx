@@ -1,5 +1,4 @@
 import React from 'react';
-
 export default function Hero() {
   return (
     <header className="relative pt-20 pb-32 px-6 text-center max-w-5xl mx-auto">

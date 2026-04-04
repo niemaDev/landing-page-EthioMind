@@ -5,7 +5,6 @@ export default function TrustSection() {
       <p className="text-gray-500 text-sm mb-10">
         Empowering 2,000+ Students Across Ethiopia
       </p>
-
       <div className="flex justify-center gap-12 opacity-40">
         <span>AAU</span>
         <span>ASTU</span>

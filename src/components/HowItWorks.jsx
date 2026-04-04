@@ -1,5 +1,4 @@
 import React from 'react';
-
 const steps = [
   {
     title: "Sign Up",

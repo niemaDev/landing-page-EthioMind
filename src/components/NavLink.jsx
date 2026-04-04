@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-
 const NavLink = ({ href, children, onClick }) => {
   const [active, setActive] = useState(false);
 
@@ -25,7 +24,7 @@ const NavLink = ({ href, children, onClick }) => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // run once on load
+    handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, [href]);
@@ -45,16 +44,13 @@ const NavLink = ({ href, children, onClick }) => {
       });
       return;
     }
-
     const target = document.querySelector(href);
-
     if (target) {
       const yOffset = -80; // adjust based on navbar height
       const y =
         target.getBoundingClientRect().top +
         window.pageYOffset +
         yOffset;
-
       window.scrollTo({
         top: y,
         behavior: "smooth",
