@@ -33,10 +33,8 @@ const NavLink = ({ href, children, onClick }) => {
   const handleClick = (e) => {
     e.preventDefault();
 
-    // Close mobile menu if passed
     if (onClick) onClick();
 
-    // Special case for Home
     if (href === "#home") {
       window.scrollTo({
         top: 0,
@@ -44,13 +42,16 @@ const NavLink = ({ href, children, onClick }) => {
       });
       return;
     }
+
     const target = document.querySelector(href);
+
     if (target) {
-      const yOffset = -80; // adjust based on navbar height
+      const yOffset = -80; 
       const y =
         target.getBoundingClientRect().top +
         window.pageYOffset +
         yOffset;
+
       window.scrollTo({
         top: y,
         behavior: "smooth",

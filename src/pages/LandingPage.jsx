@@ -11,12 +11,13 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-[#050505] text-white">
       <div className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-6xl h-[500px] bg-blue-600/10 blur-[120px] rounded-full -z-10" />
+      
       <Navbar />
-     <Hero id="home" /> 
-<TrustSection /> 
-<Features id="features" />
-<HowItWorks id="how-it-works" />
-<FAQ id="faq" />
+      <Hero />
+      <TrustSection />
+      <Features />
+      <HowItWorks />
+      <FAQ />
       <Footer />
     </div>
   );

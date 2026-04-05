@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 const faqs = [
   { q: "Is EthioMind free to use?", a: "Yes! EthioMind offers a free version for students with essential features." },
-  { q: "Which universities are supported?", a: "Currently AAU, ASTU, HU, JU, and MU students can use EthioMind." },
+  { q: "Which universities are supported?", a: "Currently BDU, AAU, ASTU, HU, JU, and MU students can use EthioMind." },
   { q: "Can I track my progress?", a: "Absolutely! EthioMind shows mastery scores and AI summaries for your modules." }
 ];
 

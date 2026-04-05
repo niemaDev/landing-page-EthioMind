@@ -1,9 +1,10 @@
+import React from "react";
 const features = [
   { title: "Amharic & English AI", desc: "Learn in your language." },
   { title: "Predictive Analytics", desc: "Know weak topics early." },
   { title: "Localized Repository", desc: "Aligned with Ethiopian curriculum." }
 ];
-import React from 'react';
+
 export default function Features() {
   return (
     <section id="features" className="py-24 px-6 max-w-7xl mx-auto">

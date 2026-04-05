@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 export default function Hero() {
   return (
     <header className="relative pt-20 pb-32 px-6 text-center max-w-5xl mx-auto">
@@ -15,13 +15,13 @@ export default function Hero() {
       </h1>
 
       <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-        EthioMind is an AI-driven ecosystem bridging the gap between classroom teaching and independent study.
+         EthioMind is an AI-driven ecosystem bridging the gap between classroom teaching and independent study.
       </p>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <button className="w-full sm:w-auto px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-xl font-bold transition-all shadow-lg shadow-blue-600/20">
-  Get Started Now
-</button>
+        <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-xl font-bold">
+          Get Started Now
+        </button>
         <button className="px-8 py-4 bg-white/5 border border-white/10 rounded-xl font-bold">
           Try Demo Mode
         </button>
