@@ -15,7 +15,7 @@ export default function Hero() {
       </h1>
 
       <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-         EthioMind is an AI-driven ecosystem bridging the gap between classroom teaching and independent study.
+         Habesha AI is an AI-driven ecosystem bridging the gap between classroom teaching and independent study.
       </p>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

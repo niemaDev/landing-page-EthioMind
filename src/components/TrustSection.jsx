@@ -7,6 +7,7 @@ export default function TrustSection() {
       </p>
 
       <div className="flex justify-center gap-12 opacity-40">
+           <span>BDU</span>
         <span>AAU</span>
         <span>ASTU</span>
         <span>JU</span>

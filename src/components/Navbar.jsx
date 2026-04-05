@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 backdrop-blur-lg bg-black/30 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
-        <h1 className="text-white font-bold text-xl">EthioMind</h1>
+        <h1 className="text-white font-bold text-xl">Habesha AI</h1>
 
         <div className="hidden md:flex gap-8">
           <NavLink href="#home">Home</NavLink>

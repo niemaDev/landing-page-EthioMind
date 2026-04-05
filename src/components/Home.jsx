@@ -7,7 +7,7 @@ export default function Home() {
     <section id="home" className="pt-24 pb-20 px-6 text-center max-w-5xl mx-auto">
       
       <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-        Study Smarter with <span className="text-blue-400">EthioMind</span>
+        Study Smarter with <span className="text-blue-400">Habesha AI</span>
       </h1>
 
       <p className="text-gray-400 mb-8 max-w-xl mx-auto">
