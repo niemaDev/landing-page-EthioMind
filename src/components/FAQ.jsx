@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 const faqs = [
-  { q: "Is EthioMind free to use?", a: "Yes! EthioMind offers a free version for students with essential features." },
-  { q: "Which universities are supported?", a: "Currently BDU, AAU, ASTU, HU, JU, and MU students can use EthioMind." },
-  { q: "Can I track my progress?", a: "Absolutely! EthioMind shows mastery scores and AI summaries for your modules." }
+  { q: "Is Habesha AI free to use?", a: "Yes! Habesha AI offers a free version for students with essential features." },
+  { q: "Which universities are supported?", a: "Currently BDU, AAU, ASTU, HU, JU, and MU students can use Habesha AI." },
+  { q: "Can I track my progress?", a: "Absolutely! Habesha AI shows mastery scores and AI summaries for your modules." }
 ];
 
 export default function FAQ() {
